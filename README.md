@@ -67,3 +67,7 @@ Linux useful commands and link
 Output:
 Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
 --------------------------------------------------------------------------------------------------------------------------
+
+## Reference
+
+- [YouTube](https://www.youtube.com/watch?v=07JOqKOBRnU&list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW&index=8) - YouTube linux learning material
