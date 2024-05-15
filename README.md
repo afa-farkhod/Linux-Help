@@ -3,9 +3,8 @@
 
 - `pwd` & `pbcopy` - copy current path in terminal
 - `lsb_release -a` - shows OS related information
-
-- nano~/.bash_profile OR nano ~/.zshrc (path configuration and addition - terminal)
-- psql -d postgres -U postgres (postgres start in terminal)
+-  `bash_profile`, `profile` and `zshrc` are important configuration files
+- `psql -d postgres -U postgres` - postgres start command in terminal
 - postgres terminal command -> \l (list all DBs)
 - nohup centaurid start &   (run node in background)
 - ps -x (linux server process status)
