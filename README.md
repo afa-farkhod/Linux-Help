@@ -1,5 +1,5 @@
 # Linux-help
-Linux useful commands and link
+### Linux useful commands and link
 
 - `pwd` & `pbcopy` - copy current path in terminal
 - `lsb_release -a` - shows OS related information
