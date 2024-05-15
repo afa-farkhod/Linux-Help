@@ -1,5 +1,5 @@
 # Linux-help
-### Linux useful commands and link
+### Linux useful commands and links
 
 - `pwd` & `pbcopy` - copy current path in terminal
 - `lsb_release -a` - shows OS related information
@@ -65,7 +65,12 @@
 - sudo iotop -o -b -n 10 -d 1 -u evmos-testnet | awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'
 Output:
 Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
---------------------------------------------------------------------------------------------------------------------------
+
+----------------------------
+
+### Useful terminology
+
+- `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL/TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
 
 ## Reference
 
