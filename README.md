@@ -1,10 +1,9 @@
 # Linux-help
 Linux useful commands and link
 
-<Linux commands>
------------------------------------------
-- pwd | pbcopy (copy current path - terminal)
-- lsb_release -a (OS related information)
+- `pwd` & `pbcopy` - copy current path in terminal
+- `lsb_release -a` - shows OS related information
+
 - nano~/.bash_profile OR nano ~/.zshrc (path configuration and addition - terminal)
 - psql -d postgres -U postgres (postgres start in terminal)
 - postgres terminal command -> \l (list all DBs)
