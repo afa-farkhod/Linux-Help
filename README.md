@@ -1,8 +1,14 @@
 # Linux-help
 ### Linux useful commands and links
 
-- `pwd` & `pbcopy` - copy current path in terminal
-- `lsb_release -a` - shows OS related information
+| Command | Description |
+| --- | --- |
+| `pwd | pbcopy` | copy current path in terminal |
+| `lsb_release -a` | shows OS related information |
+| Mar.29 | Zoom meeting |
+
+-  - 
+-  - 
 -  `bash_profile`, `profile` and `zshrc` are important configuration files
 - `psql -d postgres -U postgres` - postgres start command in terminal
 - `sudo dmidecode -t memory` - shows linux hardware info 
