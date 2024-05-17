@@ -6,12 +6,11 @@
 | `pwd & pbcopy` | copy current path in terminal |
 | `lsb_release -a` | shows OS related information |
 | `bash_profile`, `profile` and `zshrc` | are important configuration files |
-
-- `psql -d postgres -U postgres` - postgres start command in terminal
-- `sudo dmidecode -t memory` - shows linux hardware info 
-- `ps -x` - linux server process status
-- `ps -uxww` - linux server process status by user
-- `ps -aux` - process list
+| `psql -d postgres -U postgres` | postgres start command in terminal |
+| `sudo dmidecode -t memory` | shows linux hardware info |
+| `ps -x` | linux server process status |
+| `ps -uxww` | linux server process status by user |
+| `ps -aux` | process list |
 - `nohup $CMD start` - run service in background
 - `uname -a` - terminal OS check command
 - `pwd` - terminal shows current folder directory path
