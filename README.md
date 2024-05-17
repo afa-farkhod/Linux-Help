@@ -5,13 +5,13 @@
 - `lsb_release -a` - shows OS related information
 -  `bash_profile`, `profile` and `zshrc` are important configuration files
 - `psql -d postgres -U postgres` - postgres start command in terminal
-- postgres terminal command -> \l (list all DBs)
-- nohup centaurid start &   (run node in background)
-- ps -x (linux server process status)
-- ps -uxww (linux server process status by user)
-- ps -aux (process list)
-- uname -a (Terminal OS check command)
-- pwd (Terminal shows current folder directory path)
+- `sudo dmidecode -t memory` - shows linux hardware info 
+- `ps -x` - linux server process status
+- `ps -uxww` - linux server process status by user
+- `ps -aux` - process list
+- `nohup $CMD start` - run service in background
+- `uname -a` - terminal OS check command
+- `pwd` - terminal shows current folder directory path
 - whoami (Linux Terminal Username checking)
 - lz4 -d FILE_NAME.lz4 (used to decompress lz4 archive)
 - tar -xvf FILE_NAME.tar (used to extract tar archive)
