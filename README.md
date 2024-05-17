@@ -65,7 +65,7 @@
 Output:
 Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
 
-----------------------------
+# Troubleshooting
 
 ### Useful terminology
 
