@@ -17,9 +17,9 @@
 | `whoami` | Linux Terminal Username checking |
 | `lz4 -d FILE_NAME.lz4` | used to decompress lz4 archive files |
 | `tar -xvf FILE_NAME.tar` | used to extract tar archive file |
-- tar -cvf archive.tar /path/to/folder
-- free -h (Displays overall memory and swap usage in a human-readable format)
-- sha256sum filename (checks the file authenticity)
+| `tar -cvf archive.tar /path/to/folder` | used to make archive file |  
+| `free -h` | Displays overall memory and swap usage in a human-readable format |
+| `sha256sum filename` | checks the file authenticity |
 - vimdiff file1.txt file2.txt (compare to files)
 - wget https://example.com/file.zip (linux - downloading files from the web)
 - screen -S <NAME> (creates session on the current terminal)
