@@ -20,7 +20,7 @@
 | `tar -cvf archive.tar /path/to/folder` | used to make archive file |  
 | `free -h` | Displays overall memory and swap usage in a human-readable format |
 | `sha256sum filename` | checks the file authenticity |
-- vimdiff file1.txt file2.txt (compare to files)
+| `vimdiff file1.txt file2.txt` | compare two files |
 - wget https://example.com/file.zip (linux - downloading files from the web)
 - screen -S <NAME> (creates session on the current terminal)
 - screen -ls (shows sessions list)
