@@ -22,7 +22,7 @@
 | `sha256sum filename` | checks the file authenticity |
 | `vimdiff file1.txt file2.txt` | compare two files |
 | `wget https://example.com/file.zip` | download files from web | 
-- screen -S <NAME> (creates session on the current terminal)
+| `screen -S <NAME>` | creates session on the current terminal |
 - screen -ls (shows sessions list)
 - screen -X -S <PID_NUMBER> kill (kills the session)
 - Ctrl+A+D (while inside the session, exits the session without stopping the session itself)
