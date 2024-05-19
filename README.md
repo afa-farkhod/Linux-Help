@@ -71,7 +71,8 @@ Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
 
 ## Troubleshooting
 
-- Popular error type: `Error: libwasmversion mismatch. got: 1.2.3; expected: v1.5.0`
+- Libwasms mistmach error type: `Error: libwasmversion mismatch. got: 1.2.3; expected: v1.5.0`
+  - to solve the problem, we need to show the path of the `libwasmvm.x86_64.so` binary
 
 ## Useful terminology
 
