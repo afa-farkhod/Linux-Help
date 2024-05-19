@@ -73,6 +73,12 @@ Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
 
 - Libwasms mistmach error type: `Error: libwasmversion mismatch. got: 1.2.3; expected: v1.5.0`
   - to solve the problem, we need to show the path of the `libwasmvm.x86_64.so` binary
+  - In Linux set the path in profile:
+    ```
+    vim ~/.profile
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/path/to/libwasmvm.x86_64.so"
+    source ~/.profile
+    ```
 
 ## Useful terminology
 
