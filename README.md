@@ -79,6 +79,13 @@ Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
     export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/path/to/libwasmvm.x86_64.so"
     source ~/.profile
     ```
+  - also if you are running service file then you should also set the library path in service file in Linux OS as following:
+    ```
+    sudo vim /etc/systemd/system/<SERVICE_FILE_NAME>.service
+    # add following:
+    Environment="LD_LIBRARY_PATH=/path/to/libwasmvm.x86_64.so"
+    sudo systemctl daemon-reload
+    ```
 
 ## Useful terminology
 
