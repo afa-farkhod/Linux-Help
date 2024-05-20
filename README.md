@@ -27,7 +27,7 @@
 | `screen -S <NAME>` | creates session on the current terminal |
 | `screen -ls` | shows sessions list |
 | `screen -X -S <PID_NUMBER> kill` | kills the session |
-- Ctrl+A+D (while inside the session, exits the session without stopping the session itself)
+| `Ctrl+A+D` | while inside the screen session, exits the session without stopping the session itself |
 - screen -r (goes back to the running session)
 - netstat -tnlp | grep <NODE_NAME> (shows network related information)
 - du -sh * (used to display disk usage statistics)
