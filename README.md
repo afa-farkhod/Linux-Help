@@ -31,7 +31,7 @@
 | `screen -r` | goes back to the running session |
 | `netstat -tunlp grep USER` | shows network related information |
 | `du -sh *` | used to display disk usage statistics |
-- df -h ( display information about disk space usage on the system)
+| `df -h | displays information about disk space usage on the system | 
 - tree -d (shows current folder tree structure)
 - sudo netstat -tuln | grep 20302 ( checks the port usage)
 - curl ifconfig.me (shows current ip address)
