@@ -35,7 +35,7 @@
 | `tree -d` | shows current folder tree structure |
 | `sudo netstat -tulnp grep 20302` | checks the particular port usage | 
 | `curl ifconfig.me` | shows current ip address |
-- ln -sf file1.txt link_to_file1.txt (used to create a symbolic link )
+| `ln -sf file1.txt link_to_file1.txt` | used to create a symbolic link |
 - ssh-add ~/.ssh_keys/test-20231020  (adds key)
 - sudo ufw status (shows firewall status)
 - sudo ufw allow PORT_NUMBER/tcp 
