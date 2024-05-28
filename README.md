@@ -86,6 +86,12 @@ Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
     Environment="LD_LIBRARY_PATH=/path/to/libwasmvm.x86_64.so"
     sudo systemctl daemon-reload
     ```
+- While Server-A node is running and we want to copy the data of Server-A to Server-B, in this case we can use `rsync`.
+  - [rsync](https://linux.die.net/man/1/rsync) - Rsync is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon.
+   ```
+   # current command is run from Server-A location
+   rsync -e 'ssh -i /path/to/remote/access/ssh-key' --partial-dir=.rsync-partial -avv /path/to/copy/folder [Server-B-username]@[Server-B-ipaddress]:/path/to/copy/folder
+   ```
 
 ## Useful terminology
 
