@@ -38,7 +38,7 @@
 | `ln -sf file1.txt link_to_file1.txt` | used to create a symbolic link |
 | `ssh-add ~/.ssh_keys/test-20231020` | adds key |
 | `sudo ufw status` | shows firewall status |
-- sudo ufw allow PORT_NUMBER/tcp 
+| `sudo ufw allow PORT_NUMBER/tcp` | adds the particular port number to firewall rules |
 - sudo ufw delete allow PORT_NUMBER/tcp            
 - ss -tuln | grep PORT_NUMBER (checks the whether port is open or not)
 - lsof -i :PORT_NUMBER (checks connected services to port)
