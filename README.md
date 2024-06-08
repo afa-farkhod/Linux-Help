@@ -41,7 +41,7 @@
 | `sudo ufw allow PORT_NUMBER/tcp` | adds the particular port number to firewall rules |
 | `sudo ufw delete allow PORT_NUMBER/tcp` | deletes the particular port number from firewall rules |
 | `ss -tuln / grep PORT_NUMBER` | checks the whether port is open or not | 
-- lsof -i :PORT_NUMBER (checks connected services to port)
+| `lsof -i :PORT_NUMBER` | checks connected services to port |
 - sudo chown -R  <USER_NAME>:staff  <FOLDER_NAME> (changes the folder ownership type e.g. from root to username )
 - scp -P 60006 -i /Users/.ssh_keys/education2.key /Users/Downloads/mintstation.zip test@3434.1232323.187.2323:/home/test/  (copy file from local to remote server)
 - scp testnet-sentry-14:~/test.txt testnet-sentry-13:~/
