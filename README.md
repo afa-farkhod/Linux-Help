@@ -92,6 +92,16 @@ Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
    # current command is run from Server-A location. So we run the following command serveral times untill all data is copied, and finally to make the data as similar to original one, we run the command by stopping Server-A node.
    rsync -e 'ssh -i /path/to/remote/access/ssh-key' --partial-dir=.rsync-partial -avv /path/to/copy/folder [Server-B-username]@[Server-B-ipaddress]:/path/to/copy/folder
    ```
+- To extract the `executable binary` from Docker image follow this:
+  - pull the docker image file:
+```
+docker pull ghcr.io/unionlabs/uniond-release:v${TAG}
+```
+  - then search for binary uniond in nix store with following command
+```
+sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
+```
+  - then copy the executable binary to your destination (ready for use)
 
 ## Useful terminology
 
