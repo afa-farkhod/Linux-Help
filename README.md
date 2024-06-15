@@ -46,7 +46,7 @@
 | `scp -P 60006 -i /Users/.ssh_keys/test.key /Users/Downloads/test.zip test@3434.1232323.187.2323:/home/test/` | copy file from local to remote server |
 | `scp testnet-sentry-14:~/test.txt testnet-sentry-13:~/` | copies the file from one remote server to another remote server |  
 | `sudo lsof -i :343434` | check address in use? | 
-- nslookup grpc-evmos.test.io
+| `nslookup grpc-test.io` | check the grpc endpoint availability |
 - free -m (shows total memory)
 - lscpu (cpu specs)
 - nproc (number of processing units available.)
