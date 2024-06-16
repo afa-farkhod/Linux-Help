@@ -47,7 +47,7 @@
 | `scp testnet-sentry-14:~/test.txt testnet-sentry-13:~/` | copies the file from one remote server to another remote server |  
 | `sudo lsof -i :343434` | check address in use? | 
 | `nslookup grpc-test.io` | check the grpc endpoint availability |
-- free -m (shows total memory)
+| `free -m` | shows total memory |
 - lscpu (cpu specs)
 - nproc (number of processing units available.)
 - lspci | grep VGA (graphics card)
