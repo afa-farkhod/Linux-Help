@@ -48,7 +48,7 @@
 | `sudo lsof -i :343434` | check address in use? | 
 | `nslookup grpc-test.io` | check the grpc endpoint availability |
 | `free -m` | shows total memory |
-- lscpu (cpu specs)
+| `lscpu` | cpu specs |
 - nproc (number of processing units available.)
 - lspci | grep VGA (graphics card)
 - sudo iptables -L (firewall rules)
