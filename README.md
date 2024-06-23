@@ -49,7 +49,7 @@
 | `nslookup grpc-test.io` | check the grpc endpoint availability |
 | `free -m` | shows total memory |
 | `lscpu` | cpu specs |
-- nproc (number of processing units available.)
+| `nproc` | number of processing units available |
 - lspci | grep VGA (graphics card)
 - sudo iptables -L (firewall rules)
 - ldd ${FILE_NAME} (used to find out the shared libraries required by a program)
