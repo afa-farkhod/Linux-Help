@@ -50,6 +50,7 @@
 | `free -m` | shows total memory |
 | `lscpu` | cpu specs |
 | `nproc` | number of processing units available |
+| `wget -q -O - test.tar / tar -xvf -` | following command downloads the *.tar file and at the same time unarchives the file |
 - lspci | grep VGA (graphics card)
 - sudo iptables -L (firewall rules)
 - ldd ${FILE_NAME} (used to find out the shared libraries required by a program)
