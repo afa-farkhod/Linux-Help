@@ -54,7 +54,7 @@
 | `lspci / grep VGA` | shows graphics card information |
 | `sudo iptables -L` | shows ufw firewall rules |
 | `ldd ${FILE_NAME}` | used to find out the shared libraries required by a program |
-- objdump ${FILE_NAME} (displays information about binary files.)
+| `objdump ${FILE_NAME}` | displays information about binary files |
 - uptime
 - vmstat
 - dmesg
