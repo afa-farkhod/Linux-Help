@@ -55,7 +55,7 @@
 | `sudo iptables -L` | shows ufw firewall rules |
 | `ldd ${FILE_NAME}` | used to find out the shared libraries required by a program |
 | `objdump ${FILE_NAME}` | displays information about binary files |
-- uptime
+| `uptime` | shows number of users, for how long the server is up and load average details |
 - vmstat
 - dmesg
 - compgen -c will list all the commands you could run.
