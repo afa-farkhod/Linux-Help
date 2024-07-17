@@ -56,7 +56,7 @@
 | `ldd ${FILE_NAME}` | used to find out the shared libraries required by a program |
 | `objdump ${FILE_NAME}` | displays information about binary files |
 | `uptime` | shows number of users, for how long the server is up and load average details |
-- vmstat
+| `vmstat` | The vmstat command, short for "virtual memory statistics", is a built-in Linux utility that provides information about system activity, including memory, processes, paging, interrupts, block I/O, disk, and CPU scheduling |
 - dmesg
 - compgen -c will list all the commands you could run.
 - pv -L 20m < archive.tar.gz | tar xvzf - (limits the unarchiving speed)
