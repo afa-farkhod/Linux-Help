@@ -60,6 +60,9 @@
 | `dmesg` | The dmesg command in Linux displays messages from the kernel ring buffer, which contains information about hardware, device drivers, and kernel modules during system startup. The name "dmesg" is derived from "display message" |
 | `compgen -c` | will list all the commands you could run. |
 | `pv -L 20m < archive.tar.gz / tar xvzf -` | limits the unarchiving speed |
+| `sudo apt-key list` | Displays a list of public keys stored on your system that are used by the APT package manager to verify the authenticity of software packages. | 
+
+
 - wget https://node.tar.gz --limit-rate=10m (limits bandwidth speed)
 - iostat -d -x 1 (disk i/o checking)
 - pgrep -u USERNAME (finds running processes by username!)
