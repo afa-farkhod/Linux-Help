@@ -63,6 +63,7 @@
 | `sudo apt-key list` | Displays a list of public keys stored on your system that are used by the APT package manager to verify the authenticity of software packages. | 
 | `last reboot` | This command will list all the reboot entries, showing you the date and time of each reboot |
 | `uptime --since` | The command outputs a single line showing the last boot time in a readable format |
+| `gzip -d test.gz` | to unarchive the *.gz archive files |
 
 - wget https://node.tar.gz --limit-rate=10m (limits bandwidth speed)
 - iostat -d -x 1 (disk i/o checking)
