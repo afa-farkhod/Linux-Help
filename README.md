@@ -64,8 +64,7 @@
 | `last reboot` | This command will list all the reboot entries, showing you the date and time of each reboot |
 | `uptime --since` | The command outputs a single line showing the last boot time in a readable format |
 | `gzip -d test.gz` | to unarchive the *.gz archive files |
-
-- wget https://node.tar.gz --limit-rate=10m (limits bandwidth speed)
+| `wget https://node.tar.gz --limit-rate=10m` | limits bandwidth speed for downloading particular file |
 - iostat -d -x 1 (disk i/o checking)
 - pgrep -u USERNAME (finds running processes by username!)
 - crontab (Unix command that creates a list of commands to be executed by the operating system (OS) at a specified time)
