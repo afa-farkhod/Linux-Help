@@ -67,7 +67,7 @@
 | `wget https://node.tar.gz --limit-rate=10m` | limits bandwidth speed for downloading particular file |
 | `iostat -d -x 1` | disk i/o checking |
 | `pgrep -u USERNAME` | finds running processes by username |
-| 'aria2c -x16 -s16 <URL LINK>`| aria2c is better when compareed to wget/curl because it tries to utilize your maximum download bandwidth |
+| 'aria2c -x16 -s16 URL LINK`| aria2c is better when compareed to wget/curl because it tries to utilize your maximum download bandwidth |
 - crontab (Unix command that creates a list of commands to be executed by the operating system (OS) at a specified time)
 - lsblk (disk usage)
 - ps -ef | grep idea -> kill -9 PID
