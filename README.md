@@ -69,7 +69,7 @@
 | `pgrep -u USERNAME` | finds running processes by username |
 | `aria2c -x16 -s16 <URL LINK>`| aria2c is better when compareed to wget/curl because it tries to utilize your maximum download bandwidth |
 | `crontab` | Unix command that creates a list of commands to be executed by the operating system (OS) at a specified time |
-- lsblk (disk usage)
+| `lsblk` | in Linux lists block devices, such as hard drives and solid state drives, connected to your computer. It displays information about these devices in a tree-like format, including disk partitions and their sizes|
 - ps -ef | grep idea -> kill -9 PID
 - sudo iotop -o -b -n 10 -d 1 -u evmos-testnet | awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'
 Output:
