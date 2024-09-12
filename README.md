@@ -72,6 +72,7 @@
 | `lsblk` | in Linux lists block devices, such as hard drives and solid state drives, connected to your computer. It displays information about these devices in a tree-like format, including disk partitions and their sizes|
 | `ifconfig -a` | used to display detailed information about all the network interfaces on the system, both active and inactive. |
 | `ps -ef / grep idea => kill -9 PID` | find process of IDEA and kill the process, used when IDEA is not responding | 
+| `sudo snap install --channel=1.22/stable --classic` | to install particular go version using snap |
   
 - sudo iotop -o -b -n 10 -d 1 -u evmos-testnet | awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'
 Output:
