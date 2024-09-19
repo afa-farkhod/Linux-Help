@@ -73,10 +73,7 @@
 | `ifconfig -a` | used to display detailed information about all the network interfaces on the system, both active and inactive. |
 | `ps -ef / grep idea => kill -9 PID` | find process of IDEA and kill the process, used when IDEA is not responding | 
 | `sudo snap install --channel=1.22/stable --classic` | to install particular go version using snap |
-  
-- sudo iotop -o -b -n 10 -d 1 -u evmos-testnet | awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'
-Output:
-Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s
+| `sudo iotop -o -b -n 10 -d 1 -u evmos-testnet / awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'` | Output: Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s |
 
 ## Troubleshooting
 
