@@ -74,6 +74,7 @@
 | `ps -ef / grep idea => kill -9 PID` | find process of IDEA and kill the process, used when IDEA is not responding | 
 | `sudo snap install --channel=1.22/stable --classic` | to install particular go version using snap |
 | `sudo iotop -o -b -n 10 -d 1 -u evmos-testnet / awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'` | Output: Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s |
+| `sudo ufw allow from IP_ADDRESS comment "test-server"` | adds the particular IP_ADDRESS to ufw rule, opens the firewall from the ip |
 
 ## Troubleshooting
 
