@@ -113,6 +113,18 @@ sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
 ```
   - then copy the executable binary to your destination (ready for use)
 --------------------------------------------------------------------------------------------------------
+- When `rustup` isn't installed on your system
+  ```
+  # install rustup
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+  # set environment in .profile:
+  source $HOME/.cargo/env
+
+  # run , it should be good now
+  rustc --version
+  ```
+--------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL/TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
