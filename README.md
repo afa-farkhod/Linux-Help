@@ -76,6 +76,7 @@
 | `sudo iotop -o -b -n 10 -d 1 -u evmos-testnet / awk '{readSum+=$4; writeSum+=$6; count++} END {print "Average Read: " readSum/count " kB/s, Average Write: " writeSum/count " kB/s"}'` | Output: Average Read: 0.362923 kB/s, Average Write: 79.4283 kB/s |
 | `sudo ufw allow from IP_ADDRESS comment "test-server"` | adds the particular IP_ADDRESS to ufw rule, opens the firewall from the ip |
 | `sudo userdel -f USER_NAME` | orce the removal of a user |
+| `sudo certbot --nginx -d <DOMAIN_NAME> -m <EMAIL_ADDRESS>` | certificate creation for particular domain name |
 
 ## Troubleshooting
 
