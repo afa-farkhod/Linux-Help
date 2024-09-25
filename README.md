@@ -77,7 +77,7 @@
 | `sudo ufw allow from IP_ADDRESS comment "test-server"` | adds the particular IP_ADDRESS to ufw rule, opens the firewall from the ip |
 | `sudo userdel -f USER_NAME` | orce the removal of a user |
 | `sudo certbot --nginx -d <DOMAIN_NAME> -m <EMAIL_ADDRESS>` | certificate creation for particular domain name |
-| `awk '$0 >= "Sep 25 13:47:00" && $0 <= "Sep 25 13:50:00"' ./cosmovisor.log` | | To view logs from a particular time to another time |
+| `awk '$0 >= "Sep 25 13:47:00" && $0 <= "Sep 25 13:50:00"' ./cosmovisor.log` | To view logs from a particular time to another time |
 
 ## Troubleshooting
 
