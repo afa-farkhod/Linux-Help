@@ -78,6 +78,7 @@
 | `sudo userdel -f USER_NAME` | orce the removal of a user |
 | `sudo certbot --nginx -d <DOMAIN_NAME> -m <EMAIL_ADDRESS>` | certificate creation for particular domain name |
 | `awk '$0 >= "Sep 25 13:47:00" && $0 <= "Sep 25 13:50:00"' ./cosmovisor.log` | To view logs from a particular time to another time |
+| `cat /sys/block/nvme0n1/queue/rotational` | To check whether the disk is an SSD or HDD rotational or non-rotational (SSD - 0 and HDD - 1) |
 
 ## Troubleshooting
 
