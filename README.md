@@ -129,6 +129,26 @@ sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
   rustc --version
   ```
 --------------------------------------------------------------------------------------------------------
+- To broadcast the message in remote server so that everyone on that server at the same time could see the message:
+  ```
+  sudo wall "This is a broadcast message to all users"
+
+  wall -help
+
+  Usage:
+   wall [options] [<file> | <message>]
+
+  Write a message to all users.
+
+  Options:
+   -g, --group <group>     only send message to group
+   -n, --nobanner          do not print banner, works only for root
+   -t, --timeout <timeout> write timeout in seconds
+
+   -h, --help              display this help
+   -V, --version           display version
+  ```  
+--------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL/TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
