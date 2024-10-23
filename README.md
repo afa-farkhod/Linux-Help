@@ -82,6 +82,7 @@
 | `cat /proc/mdstat` | List All Active RAID Arrays | 
 | `sudo usermod -l NEW_USER_NAME OLD_USER_NAME` | change `uid=1003(cryptoorg)` |
 | `sudo groupmod -n NEW_USER_NAME OLD_USER_NAME` | change `gid=1003(cryptoorg)` | 
+| `tar -czvf archive-name.tar.gz /path/to/directory` | To archive and compress a directory, you can use the tar command with a compression option to reduce its size. | 
 
 ## Troubleshooting
 
