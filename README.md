@@ -149,6 +149,18 @@ sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
    -V, --version           display version
   ```  
 --------------------------------------------------------------------------------------------------------
+- When we try to do in Linux server sometimes we get similar error as following:
+  ```
+  usermod: user cryptoorg is currently used by process 1228221
+
+  # in this case simply run the following command to see for full process:
+  ps -p 1228221 -o pid,user,cmd
+
+  # and we can get the result as following:
+      PID USER     CMD
+      1228221 cryptoo+ /home/cryptoorg/go/bin/cosmovisor run start --home /data/node/.chain-maind
+  ```
+--------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL/TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
