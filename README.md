@@ -80,6 +80,7 @@
 | `awk '$0 >= "Sep 25 13:47:00" && $0 <= "Sep 25 13:50:00"' ./cosmovisor.log` | To view logs from a particular time to another time |
 | `cat /sys/block/nvme0n1/queue/rotational` | To check whether the disk is an SSD or HDD rotational or non-rotational (SSD - 0 and HDD - 1) |
 | `cat /proc/mdstat` | List All Active RAID Arrays | 
+| `sudo usermod -l NEW_USER_NAME OLD_USER_NAME` | change `uid=1003(cryptoorg)` |
 
 ## Troubleshooting
 
