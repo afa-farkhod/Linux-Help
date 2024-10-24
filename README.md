@@ -164,6 +164,12 @@ sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
       1228221 cryptoo+ /home/cryptoorg/go/bin/cosmovisor run start --home /data/node/.chain-maind
   ```
 --------------------------------------------------------------------------------------------------------
+- To ensure that the `grep` command shows the next two lines following each match of `grpc-web`, we can use the `-A` option, which stands for "after" and specifies the number of lines to include after each match.
+```
+grep -rn "grpc-web" -A 2
+```
+  - This will search recursively (-r), show line numbers (-n), and include the three lines following each match (-A 2).
+--------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL | TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
