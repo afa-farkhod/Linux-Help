@@ -174,6 +174,9 @@ grep -rn "grpc-web" -A 2
 - While installing some go related modules or packages, sometimes we see following type of error:
   ```
   go: creating work dir: mkdir /tmp/go-build1127798198: permission denied
+
+  # Check Permissions on /tmp: Make sure the /tmp directory is writable by your user. You can check this by running:
+  ls -ld /tmp
   ```
 --------------------------------------------------------------------------------------------------------
 ## Useful terminology
