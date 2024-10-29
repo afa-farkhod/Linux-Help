@@ -177,6 +177,9 @@ grep -rn "grpc-web" -A 2
 
   # Check Permissions on /tmp: Make sure the /tmp directory is writable by your user. You can check this by running:
   ls -ld /tmp
+
+  # The output should show permissions like drwxrwxrwt (the t at the end is crucial for shared temp directories).
+  # If permissions are different, you may need to adjust them:
   ```
 --------------------------------------------------------------------------------------------------------
 ## Useful terminology
