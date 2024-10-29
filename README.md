@@ -172,6 +172,9 @@ grep -rn "grpc-web" -A 2
   - This will search recursively (-r), show line numbers (-n), and include the three lines following each match (-A 2).
 --------------------------------------------------------------------------------------------------------
 - While installing some go related modules or packages, sometimes we see following type of error:
+  ```
+  go: creating work dir: mkdir /tmp/go-build1127798198: permission denied
+  ```
 --------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
