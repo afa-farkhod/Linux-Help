@@ -180,6 +180,7 @@ grep -rn "grpc-web" -A 2
 
   # The output should show permissions like drwxrwxrwt (the t at the end is crucial for shared temp directories).
   # If permissions are different, you may need to adjust them:
+  sudo chmod 1777 /tmp
   ```
 --------------------------------------------------------------------------------------------------------
 ## Useful terminology
