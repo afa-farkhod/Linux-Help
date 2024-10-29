@@ -83,6 +83,7 @@
 | `sudo usermod -l NEW_USER_NAME OLD_USER_NAME` | change `uid=1003(cryptoorg)` |
 | `sudo groupmod -n NEW_USER_NAME OLD_USER_NAME` | change `gid=1003(cryptoorg)` | 
 | `tar -czvf archive-name.tar.gz /path/to/directory` | To archive and compress a directory, you can use the tar command with a compression option to reduce its size. | 
+| `ls -lart` | lists all files (including hidden ones) in reverse chronological order, showing the oldest files first and the newest ones last, along with detailed information for each |
 
 ## Troubleshooting
 
