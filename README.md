@@ -183,6 +183,12 @@ grep -rn "grpc-web" -A 2
   sudo chmod 1777 /tmp
   ```
 --------------------------------------------------------------------------------------------------------
+- Sometimes we need to watch education related videos which can't skipped, in this case simply use the following method:
+  ```
+  교육시작 > F12 >  parent[0].next_click('9.html', "Y"); 입력 > 교육종료
+  ```
+
+--------------------------------------------------------------------------------------------------------
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL | TLS certificate to secure any sensitive data transmitted between your server and its clients. It can free and paid
