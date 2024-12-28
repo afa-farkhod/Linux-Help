@@ -6,6 +6,7 @@
 | Command | Description |
 | --- | --- |
 | `pwd & pbcopy` | copy current path in terminal |
+| `cat /etc/os-release` | copy current path in terminal |
 | `lsb_release -a` | shows OS related information |
 | `bash_profile`, `profile` and `zshrc` | are important configuration files |
 | `psql -d postgres -U postgres` | postgres start command in terminal |
