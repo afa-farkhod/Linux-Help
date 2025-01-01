@@ -2,7 +2,7 @@
 ### Linux useful commands and links
 
 
-## Command list:
+## Command List:
 | Command | Description |
 | --- | --- |
 | `pwd & pbcopy` | copy current path in terminal |
