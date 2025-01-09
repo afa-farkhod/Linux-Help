@@ -186,7 +186,7 @@ grep -rn "grpc-web" -A 2
   sudo chmod 1777 /tmp
   ```
 --------------------------------------------------------------------------------------------------------
-- Sometimes we need to watch education related videos which can't skipped, in this case simply use the following method:
+- Sometimes we need to watch education related videos which can't be skipped, in this case simply use the following method:
   ```
   # just type the code in console
   교육시작 > F12 >  parent[0].next_click('9.html', "Y"); 입력 > 교육종료
