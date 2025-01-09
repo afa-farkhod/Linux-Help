@@ -204,9 +204,28 @@ grep -rn "grpc-web" -A 2
   # For virtual machines, these fields might show virtualization providers like VMware, QEMU, VirtualBox, or Microsoft Corporation.
 
   # Example outcome
+  # dmidecode 3.5
+  Getting SMBIOS data from sysfs.
+  SMBIOS 3.6.0 present.
+  # SMBIOS implementations newer than version 3.5.0 are not
+  # fully supported by this version of dmidecode.
+  
+  Handle 0x0001, DMI type 1, 27 bytes
+  System Information
+  	Manufacturer: Supermicro
+  	Product Name: AS -3015MR-H8TNR
+  	Version: 01234xxxx
+  	Serial Number: E89xxxx
+  	UUID: 00000000-0000-0000-0000-7cxxxxx
+  	Wake-up Type: Power Switch
+  	SKU Number: To be filled by O.E.M.
+  	Family: Family
+  
+  Handle 0x000D, DMI type 32, 20 bytes
+  System Boot Information
+  	Status: No errors detected
   ```
   
-
 --------------------------------------------------------------------------------------------------------
 
 ## Useful terminology
