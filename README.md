@@ -198,7 +198,14 @@ grep -rn "grpc-web" -A 2
   ```
   # run following command:
   sudo dmidecode -t system
+
+  # Look for the Manufacturer and Product Name fields:
+  # For bare metal servers, these fields typically indicate a hardware vendor like Dell, HP, Supermicro, etc.
+  # For virtual machines, these fields might show virtualization providers like VMware, QEMU, VirtualBox, or Microsoft Corporation.
+
+  # Example outcome
   ```
+  
 
 --------------------------------------------------------------------------------------------------------
 
