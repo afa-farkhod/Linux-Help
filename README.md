@@ -193,6 +193,15 @@ grep -rn "grpc-web" -A 2
   ```
 
 --------------------------------------------------------------------------------------------------------
+
+- To check if remote server is `bare metal` or `virtual machine` use DMI (Desktop Management Interface) Linux only method
+  ```
+  # run following command:
+  sudo dmidecode -t system
+  ```
+
+--------------------------------------------------------------------------------------------------------
+
 ## Useful terminology
 
 - `SSL` (Secure Sockets Layer) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent between the server and the client. If you run a cloud instance and build a Linux-based server, you will need an SSL | TLS certificate to secure any sensitive data transmitted between your server and its clients. It can be free and paid
