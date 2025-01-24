@@ -132,7 +132,7 @@ sudo find /var/lib/docker/ -name "uniond" | grep $(uname -m)
   # set environment in .profile:
   source $HOME/.cargo/env
 
-  # run , it should be good now
+  # run, it should be good now
   rustc --version
   ```
 --------------------------------------------------------------------------------------------------------
