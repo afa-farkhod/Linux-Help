@@ -87,6 +87,7 @@
 | `tar -czvf archive-name.tar.gz /path/to/directory` | To archive and compress a directory, you can use the tar command with a compression option to reduce its size. | 
 | `ls -lart` | lists all files (including hidden ones) in reverse chronological order, showing the oldest files first and the newest ones last, along with detailed information for each |
 | `state <FILE>` | The stat command provides detailed information about files and directories. |
+|`cd $(dirname $(which agd))`|finds the to binary and moves to that directory|
 
 ## Troubleshooting
 
