@@ -226,7 +226,23 @@ grep -rn "grpc-web" -A 2
   System Boot Information
   	Status: No errors detected
   ```
-  
+--------------------------------------------------------------------------------------------------------
+```
+# set swap memory (ex: 64GB)
+swapon --show
+sudo dd if=/dev/zero of=/swapfile bs=1G count=64 status=progress
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+swapon --show
+free -h
+
+# remove swap memory
+sudo swapoff /swapfile
+sudo rm -f /swapfile
+swapon --show
+free -h
+```
 --------------------------------------------------------------------------------------------------------
 
 ## Useful terminology
