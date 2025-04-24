@@ -244,6 +244,28 @@ swapon --show
 free -h
 ```
 --------------------------------------------------------------------------------------------------------
+- Manual `data` copy from the old host to new host:
+  
+```
+#before proceeding further, check the old server for 22 port firewall 
+sudo ufw status
+22/tcp (v6)                ALLOW       Anywhere (v6)
+
+#if you don't see that, run following command:
+sudo ufw allow 22/tcp
+
+#Log into the new host
+#Need to have ssh key in authorized_keys which allows to ssh access the new old server from new server.
+#then run as an example:
+
+rsync -avz --progress -e "ssh -i ~/.ssh_key/test-key" $OLD_HOST_USER_NAME@$OLD_HOST_IP:/data/db /data/db
+
+#after, stop the related services on the old host and on the new host do a second rsync with the --delete option (to only keep files that exist on the old host):
+
+rsync -avz --delete --progress -e "ssh -i ~/.ssh_key/test-key" $OLD_HOST_USER_NAME@$OLD_HOST_IP:/data/db /data/db
+```
+
+--------------------------------------------------------------------------------------------------------
 
 ## Useful terminology
 
